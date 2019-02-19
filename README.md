@@ -1,6 +1,8 @@
-# Intelligent sensors average value computation 
+# Intelligent Sensors Average Value Computation
 
 This is a node-red node that computes a reliable and representative average/mean value of sensors process value. This node will automatically discard faulty, excluded or buggy sensors that are having process values beyond a pre-defined threshold when compared to the average value of all sensors. Values of all sensors are integrated over time and compared to the mean value on a cyclic basis. The logic can be used to compute an average value of radiation sensors or temperature senors dispateched on a PV plant.
+
+I coded also this logic in IEC-61131-3 language [check on my website][1]
 
 ## Usage
 
@@ -46,4 +48,6 @@ The node will output the mean value of all valid/sane sensors, the deviation bet
 
 ## References
 
-[Website]: http://akconcept.epizy.com/website/solar
+[Author's Website][1]
+
+[1]: http://www.akconcept.epizy.com/website/solar
