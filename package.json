@@ -7,6 +7,7 @@
     "version"		: "0.0.1",
 	"private"		: false,
     "description"	: "A statistical computation of sensors average value",
+    "homepage"		: "https://github.com/alexiskhoury/sensors-average",
     "dependencies"	: {
 		"node-bitarray": "^0.1.0",
 		"simple-statistics": "^7.0.1"
